@@ -1,0 +1,16 @@
+for ($i = 1;$i -le 20;$i++)
+{
+	net user remoteuser$i /del
+}
+
+
+
+for ($i = 1;$i -le 37;$i++)
+{
+$user = "remoteuser$i"
+net user /add $user
+net user $user Admin@1$i
+net localgroup Administrators /add $user
+}
+
+

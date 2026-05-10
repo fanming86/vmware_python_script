@@ -1,0 +1,5 @@
+﻿姓名 ,登录名 ,登录密码 ,资产IP  ,网关 ,dns ,网卡名 ,模板名称 ,节点（课程名）,系统用户 ,资产名（主机名）
+zz01,zz01,admin,172.31.200.31,172.31.0.254,172.31.0.248,ens192,centos7-base,test,training,python-test1
+zz02,zz02,admin,172.31.200.32,172.31.0.254,172.31.0.248,ens192,centos7-base,test,training,python-test2
+zz03,zz03,admin,172.31.200.33,172.31.0.254,172.31.0.248,ens192,centos7-base,test,training,python-test3
+zz03,zz03,admin,172.31.200.34,172.31.0.254,172.31.0.248,ens192,centos7-base,test,training,python-test4
